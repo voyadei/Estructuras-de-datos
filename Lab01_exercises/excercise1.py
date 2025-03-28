@@ -10,7 +10,7 @@ def measure_time(func, n):
 
 def plot_times(n_values, times, title):
     """Grafica los tiempos de ejecución"""
-    plt.plot(n_values, times, 'o-', label="Tiempo de ejecución")
+    plt.plot(n_values, times, 'o-', label="Tiempo de ejecución") 
     plt.title(title)
     plt.xlabel('Tamaño de entrada (n)')
     plt.ylabel('Tiempo (segundos)')
@@ -28,7 +28,8 @@ def run_algorithm(algorithm_func, n_values, title):
 
     plot_times(n_values, times, title)
 
-# Algoritmo alternativo con O(n²)
+
+#ALGORITMO 4
 def alternative_nested_loops(n):
     """Algoritmo con O(n²) pero con una lógica diferente"""
     lista = list(range(n))
