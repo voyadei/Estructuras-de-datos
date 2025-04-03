@@ -37,7 +37,7 @@ ll.append(5)
 print("Original List:")
 ll.display()
 
-ll.remove_nth_from_end(4)
+ll.remove_nth_from_end(2)
 
 print("After Removing 2nd Node from End:")
 ll.display()
