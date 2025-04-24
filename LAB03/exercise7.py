@@ -1,7 +1,6 @@
 from modulo import LinkedList,Node
 class ExtendedLinkedList(LinkedList):
     def remove_nth_from_end(self, n):
-        """Removes the nth node from the end of the list."""
         dummy = Node(0)
         dummy.next = self.head
         first = second = dummy
@@ -37,7 +36,7 @@ ll.append(5)
 print("Original List:")
 ll.display()
 
-ll.remove_nth_from_end(2)
+ll.remove_nth_from_end(4)
 
 print("After Removing 2nd Node from End:")
 ll.display()
