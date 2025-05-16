@@ -8,3 +8,5 @@ Invoke-WebRequest -Uri "https://cdn.cloudflare.steamstatic.com/client/installer/
 Invoke-WebRequest -Uri "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe" -OutFile "$env:USERPROFILE\Downloads\SteamSetup.exe"
 
 
+jipmyr-xazcos-3Nyhzo
+
