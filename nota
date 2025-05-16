@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe" -OutFile "$env:USERPROFILE\Desktop\SteamSetup.exe"
