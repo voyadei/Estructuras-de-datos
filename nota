@@ -1,12 +1,3 @@
-Invoke-WebRequest -Uri "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe" -OutFile "$env:USERPROFILE\Desktop\SteamSetup.exe"
 
 
-powershell
-Invoke-WebRequest -Uri "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe" -OutFile "$env:USERPROFILE\Desktop\SteamSetup.exe"
-
-
-Invoke-WebRequest -Uri "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe" -OutFile "$env:USERPROFILE\Downloads\SteamSetup.exe"
-
-
-jipmyr-xazcos-3Nyhzo
-
+https://www.mediafire.com/file/tts0ku1z9u48g1e/Plants_Vs_Zombies_ES.rar/file
